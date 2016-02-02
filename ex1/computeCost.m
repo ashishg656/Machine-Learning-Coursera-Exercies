@@ -13,9 +13,9 @@ m = length(y); % number of training examples
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-hx = X*theta;
-sqrErrors = (hx-y).^2;
-J = 1/(2*m)*sum(sqrErrors);
+hx = X * theta;
+sqrErrors = (hx - y).^2;
+J = 1/(2*m) * sum(sqrErrors);
 
 
 % =========================================================================
