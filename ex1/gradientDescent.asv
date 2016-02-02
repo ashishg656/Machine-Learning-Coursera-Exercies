@@ -30,7 +30,7 @@ for iter = 1:num_iters
     temp1 = theta(2) - alpha * (1/m) * h * X(:, 2);
     
     theta(1) = temp0
-    theta(2) = temp1
+    theta(
 
 
 
